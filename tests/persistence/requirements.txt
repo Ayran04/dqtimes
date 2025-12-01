@@ -1,0 +1,23 @@
+# Dependências para Testes de Persistência de Séries Temporais
+# Issues #70 e #71 - dqtimes
+
+# Conexão com PostgreSQL
+psycopg2-binary==2.9.9
+
+# Processamento de dados e estatísticas
+numpy==1.26.2
+pandas==2.1.4
+
+# Opcional: Para gráficos e visualizações
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Opcional: Para relatórios mais elaborados
+tabulate==0.9.0
+
+# Opcional: Para testes unitários
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Opcional: Para análise de performance
+memory-profiler==0.61.0
